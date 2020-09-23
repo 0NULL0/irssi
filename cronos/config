@@ -1,0 +1,25 @@
+settings = {
+  "fe-text" = { actlist_sort = "refnum"; };
+  core = { real_name = "cronos"; user_name = "cronos"; nick = "cronos"; };
+};
+chatnets = {
+  fs = { type = "IRC"; };
+};
+servers = (
+  {
+    address = "irc.abandoned-irc.net";
+    chatnet = "fs";
+    port = "6667";
+    use_tls = "no";
+    tls_verify = "no";
+    autoconnect = "yes";
+  }
+);
+channels = (
+  {
+    name = "#fsociety";
+    chatnet = "fs";
+    autojoin = "yes";
+    password = "far228855";
+  }
+);
